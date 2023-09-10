@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#father{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(116, 141, 141);
+    padding: 100px;
+    gap:20px;
+}
+
+img{
+    
+    width: 400px;
+    border-radius: 5px;
+
+}
+
+.main{
+    background-color:rgb(128, 133, 122);
+    padding: 10px;
+   box-shadow: 5px 5px 10px #0000006b;
+   border-radius: 20px 10px 20px 10px;
+}
+h3{
+    font-size: xx-large;
+    color: #000000;
+    background-color: #faf6d3b2;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+h4{
+    font-size: x-large;
+    color: #192a2b;
+    background-color: #cccab7bb;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.cart{
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #709a9c;
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px 20px 20px 10px;
+
+}
+
+.footer{
+    position: fixed;
+    margin-top: 10px;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(27, 22, 22);
+    color: white;
+    text-align: center;
+    font-family: 'Black Ops One';
+    font-size: 25px;
+    font-family: 'Black Ops One'
+}
+a{
+    color: #fdfdfd;
+    text-decoration: none;
+}
+a:hover{
+    color: #bdaf37;
+    text-decoration: none;
+}
+
+.cart:hover{
+    transition : 1000ms;
+padding: 10px 20px;
+transform : translateY(-0px);
+background-color: #a7a1a1;
+color: #fdf030;
+border: solid 2px #0066cc;
+}
