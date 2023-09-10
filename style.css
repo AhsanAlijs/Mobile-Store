@@ -3,14 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: HyperTurfu;
+    letter-spacing: 5px;
+
+}
+@font-face {
+    font-family: HyperTurfu;
+    src: url('./fonts/HyperTurfu.ttf');
+}
+
+h1{
+    padding: 10px;
+    font-size: xx-large;
+    background-image: url('https://img.freepik.com/premium-photo/bunch-hexagonals-that-are-dark_116317-30554.jpg?w=2000');
+    border: 2px solid gray;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
 #father{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(116, 141, 141);
+    /* background-color: rgb(0, 255, 255); */
+    background-image: url('https://img.freepik.com/premium-photo/bunch-hexagonals-that-are-dark_116317-30554.jpg?w=2000');
+    /* background-image: url('https://cdn.wallpapersafari.com/8/59/0V5Tqe.jpg'); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     padding: 100px;
     gap:20px;
+    width: auto;
 }
 
 img{
@@ -21,23 +45,38 @@ img{
 }
 
 .main{
-    background-color:rgb(128, 133, 122);
+    /* background-color:rgb(128, 133, 122); */
+    
+    background-image: url('https://i.pinimg.com/736x/47/c3/10/47c31005946a464905ebb9ff5b6ac2b3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     padding: 10px;
-   box-shadow: 5px 5px 10px #0000006b;
+    box-shadow: 5px 5px 10px #9932cd;
+
    border-radius: 20px 10px 20px 10px;
+   width: auto;
 }
 h3{
     font-size: xx-large;
-    color: #000000;
-    background-color: #faf6d3b2;
+    color: #ffffff;
+    /* background-color: #faf6d3b2; */
+    border: 3px solid #9932cd;
+   box-shadow: 5px 5px 10px #9932cd;
+
+
     padding: 5px;
     border-radius: 5px;
     margin-bottom: 5px;
 }
 h4{
     font-size: x-large;
-    color: #192a2b;
-    background-color: #cccab7bb;
+    color: #ffffff;
+    /* background-color: #cccab7bb; */
+    box-shadow: 5px 5px 10px #9932cd;
+
+
+    border: 3px solid darkorchid;
     padding: 5px;
     border-radius: 5px;
     margin-bottom: 5px;
@@ -46,13 +85,22 @@ h4{
     padding: 10px 20px 10px 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #709a9c;
-    color: white;
+    background-color: #cccab7ec;
+    /* background-color: #56b87f; */
+    color: rgb(59, 57, 57);
     font-size:20px;
     font-weight: bold;
     border: none;
     border-radius: 10px 20px 20px 10px;
 
+}
+.cart:hover{
+    transition : 1000ms;
+padding: 10px 10px;
+transform : translateY(-0px);
+background-color: #9932cd;
+color: #000000;
+border: solid 2px #000000;
 }
 
 .footer{
@@ -77,12 +125,94 @@ a:hover{
     color: #bdaf37;
     text-decoration: none;
 }
+@media (min-width: 200px) {
+    h1{
+        width: 100%;
+        font-size: medium;
+    }
+    img{
+    
+        width: 210px;
+        border-radius: 5px;
+    
+    }
+  }
 
-.cart:hover{
-    transition : 1000ms;
-padding: 10px 20px;
-transform : translateY(-0px);
-background-color: #a7a1a1;
-color: #fdf030;
-border: solid 2px #0066cc;
-}
+@media (min-width: 280px) {
+    h1{
+        width: 100%;
+        font-size: x-large;
+    }
+    img{
+    
+        width: 250px;
+        border-radius: 5px;
+    
+    }
+  }
+
+@media (min-width: 400px) {
+    h1{
+        width: 100%;
+        font-size: xx-large;
+    }
+    img{
+    
+        width: 300px;
+        border-radius: 5px;
+    
+    }
+  }
+
+@media (min-width: 640px) {
+    h1{
+        width: 100%;
+        font-size: xx-large;
+    }
+    img{
+    
+        width: 400px;
+        border-radius: 5px;
+    
+    }
+  }
+  
+  @media (min-width: 768px) {
+    h1{
+        width: 100%;
+        font-size: xx-large;
+    }
+    img{
+    
+        width: 400px;
+        border-radius: 5px;
+    
+    }
+    }
+  
+  
+  @media (min-width: 1024px) {
+    h1{
+        width: 100%;
+        font-size:xx-large;
+    }
+    img{
+    
+        width: 400px;
+        border-radius: 5px;
+    
+    }
+  }
+  
+  @media (min-width: 1240px) {
+    h1{
+        width: 100%;
+        font-size: xx-large;
+    }
+    img{
+    
+        width: 400px;
+        border-radius: 5px;
+    
+    }
+  }
